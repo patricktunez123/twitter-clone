@@ -8,9 +8,24 @@ This is a web application created using [ReactJS](https://reactjs.org/) and [Red
 - Redux
 - Ant design
 
-## Available Scripts
+## Available Scripts & how to run this project on your local machine
 
-In the project directory, you can run:
+### Get Started
+
+- Clone this repo 
+
+```sh
+$ git clone https://github.com/patricktunez123/twitter-clone.git
+
+$ cd twitter-clone/
+
+$ yarn
+
+$ yarn start
+
+```
+
+### Scripts
 
 ### `yarn start`
 
@@ -43,6 +58,37 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into the project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+## Features
+
+- The design looks exactly like official Twitter
+- User can create account
+- User can login
+- User can forget their password
+- User can tweet
+- User can retweet
+- User can send messages
+- User can delete their messages
+- User can copy message
+- User can report a message
+- User can send a media message
+- User can include imojis in their messages
+- User can send GIF messages
+- User can see others' tweets
+- User can tweet replies
+- User can like tweets
+- User can share tweets
+- User can see trends
+- User can search
+- User can follow people
+- User is able to get notifications
+- User can add tweets to bookmarks
+- User can create/follow list
+- User can view/edit their profile
+- User can view/edit their tweeter settings
+- User can logout of tweeter
+
+NB: This application does not use a real database, I use data structures to store data in memory.
+
 ## Author
 
 - Names: Patrick Tunezerwane
@@ -50,7 +96,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 - Linkdin: <https://www.linkedin.com/in/patrick-tunezerwane-0a901ba8/>
 - Twitter: <https://twitter.com/tunezpatrick>
 - Facebook: <https://web.facebook.com/tunezerwane.patrick/>
-- WhatsApp: <+250781429268>
+- WhatsApp: +250781429268
 
 ---
 
